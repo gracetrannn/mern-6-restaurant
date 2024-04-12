@@ -13,10 +13,10 @@ const App = () => {
   return (
     <>
       <div className="container">
-        <h1 className="header">GFG Restaurant App</h1>
+        <h1 className="header">{/*GFG*/}Git Restaurant App</h1>
         <Cart style={{ position: "absolute", right: "20px", top: "20px" }} />
         <RestaurantList />
-        {selectedRestaurant && <DishesMenu />}
+        {/*my code = selectedRestaurant &&*/ <DishesMenu />}
       </div>
     </>
   );

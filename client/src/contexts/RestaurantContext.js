@@ -100,7 +100,7 @@ const RestaurantProvider = ({ children }) => {
     }
   };
 
-  const value = {
+  const value1 = {
     restaurants,
     selectedRestaurant,
     setSelectedRestaurant,
@@ -110,7 +110,7 @@ const RestaurantProvider = ({ children }) => {
   };
 
   return (
-    <RestaurantContext.Provider value={value}>
+    <RestaurantContext.Provider value={value1}>
       {children}
     </RestaurantContext.Provider>
   );
